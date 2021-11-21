@@ -1,17 +1,18 @@
-<p align="center"><a href="https://t.me/fridayot"><img src="https://telegra.ph/file/22535f8051a58af113586.jpg" width="5000"></a></p> 
-<h1 align="center"><b>FRIDAY-USERBOT 🇮🇳 </b></h1>
+<p align="center"><a href="https://t.me/EngrJuanMala"><img src="https://telegra.ph//file/3f97ad3ad0a68dd759060.jpg" width="5000"></a></p> 
+<h1 align="center"><b>Juan Security Bot 🇮🇳 </b></h1>
 <h4 align="center">A Powerful, Smart And Simple Userbot In Pyrogram.</h4>
 
 
 ## Support 🚑
-<a href="https://t.me/FridaySupportOfficial"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/fridayOT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/LucidSupportGroup"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/LucidSupportGroup"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ## Inspiration & Credits
 * [Userge-X](https://github.com/code-rgb/USERGE-X/contributors)
 * [Userge](https://github.com/UsergeTeam/Userge)
 * [Pokurt](https://github.com/UsergeTeam/Pokurt)
 * [Pyrogram](https://github.com/pyrogram/pyrogram/contributors)
+* [Friday](https://github.com/DevsExpo/FridayUserbot)
 
 ## Code Owners
 * [Chsaiujwal](https://github.com/chsaiujwal)
@@ -22,11 +23,11 @@
 
 # String Session - Pyrogram 🖱
 ### Repl 🧨
-[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@MIDHUNKMKM/StringGen)
+[![Run on Repl.it](https://repl.it/badge/github/HairyPotah02/JuanSecurityBotv1)](https://replit.com/@Manuelito1192/StringSession)
 ### Locally 🏆
 ```
-$ git clone https://github.com/DevsExpo/FridayUserbot
-$ cd FridayUserBot
+$ git clone https://github.com/HairyPotah02/JuanSecurityBotv1
+$ cd JuanSecurityBotv1
 $ python(3) string_gen.py
 ```
 
@@ -42,7 +43,7 @@ $ python(3) string_gen.py
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
-$ git clone https://github.com/DevsExpo/FridayUserBot
+$ git clone https://github.com/HairyPotah02/JuanSecurityBotv1
 # Open Git Cloned File
 $ cd FridayUserBot
 # Install All Requirements 
