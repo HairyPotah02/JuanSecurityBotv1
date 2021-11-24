@@ -92,9 +92,9 @@ async def afk_er(client, message):
     afk_end = back_alivee.replace(microsecond=0)
     total_afk_time = str((afk_end - afk_start))
     message_to_reply = (
-        f"I Am **[AFK]** Right Now. \n**Last Seen :** `{total_afk_time}`\n**Reason** : `{reason}`"
+        f"wala ako ngayon pre\ mga`{total_afk_time}`\n kase: `{reason}`"
         if reason
-        else f"I Am **[AFK]** Right Now. \n**Last Seen :** `{total_afk_time}`"
+        else f"wala ako ngayon pre \n**kanina pang** `{total_afk_time}`"
     )
     await message.reply(message_to_reply)
 
