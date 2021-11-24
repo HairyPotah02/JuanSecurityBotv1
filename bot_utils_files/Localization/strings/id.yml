@@ -203,7 +203,7 @@ YTDL_FAILED: "**Youtube Download Gagal!** \n**Error :** `{}`"
 NO_RESULTS: "`Hasil tidak ditemukan {}, Berikan input yang lebih spesifik.`"
 GETTING_RESULTS: "`Mencari hasil untuk {}. Harap tunggu.`"
 ALIVE_: "
-**{}'s Friday-UserBot Aktif!**\n\n
+**{}'s Juan UserBot Aktif!**\n\n
 \n➔ **Versi :** __{}__
 \n➔ **Durasi Aktif :** __{}__
 \n➔ **PyroGram Versi :** __{}__
