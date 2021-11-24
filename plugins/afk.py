@@ -77,7 +77,7 @@ async def afk_er(client, message):
         afk_sanity_check[use_r] += 1
     if afk_sanity_check[use_r] == 5:
         await message.reply_text(
-            "`I Told You 5 Times That My Master Isn't Available, Now I Will Not Reply To You. ;(`"
+            "`ang kulet mo naman! limang beses ko na sinabi na wala ako eh, Now I Will Not Reply To You. ;(`"
         )
         afk_sanity_check[use_r] += 1
         return
