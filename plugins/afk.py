@@ -77,7 +77,7 @@ async def afk_er(client, message):
         afk_sanity_check[use_r] += 1
     if afk_sanity_check[use_r] == 5:
         await message.reply_text(
-            "`ang kulet mo naman! limang beses ko na sinabi na wala ako eh, Now I Will Not Reply To You. ;(`"
+            "`I Told You 5 Times That My Master Isn't Available, Now I Will Not Reply To You. ;(`"
         )
         afk_sanity_check[use_r] += 1
         return
@@ -92,9 +92,9 @@ async def afk_er(client, message):
     afk_end = back_alivee.replace(microsecond=0)
     total_afk_time = str((afk_end - afk_start))
     message_to_reply = (
-        f"wala ako ngayon pre\ mga`{total_afk_time}`\n kase: `{reason}`"
+        f"I Am **[AFK]** Right Now. \n**Last Seen :** `{total_afk_time}`\n**Reason** : `{reason}`"
         if reason
-        else f"wala ako ngayon pre \n**kanina pang** `{total_afk_time}`"
+        else f"I Am **[AFK]** Right Now. \n**Last Seen :** `{total_afk_time}`"
     )
     await message.reply(message_to_reply)
 
