@@ -1,6 +1,6 @@
 # Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 #
-# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# This file is part of < https://github.com/DevsExpo/FridayUB > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/DevsExpo/blob/master/LICENSE >
 #
@@ -73,19 +73,3 @@ async def rm_s_sudo(client, message):
       return await msg_.edit(engine.get_string("USER_ALREADY_NOT_IN_SUDODB").format(user.mention))
     await rm_sudo(int(user.id))
     await msg_.edit(engine.get_string("RM_FROM_SUDO").format(user.mention))
-
-@friday_on_cmd(['sudos'],
-              disable_sudo=False,
-              cmd_help={
-                "help": "Gets the Sudo List.",
-                "example": "{ch}sudos",
-    })
-async def rm_s_sudo(client, message):
-    msg_ = await edit_or_reply(message, "Processing")
-    msg = ""
-    for i in await sudo_list():
-      try:
-                msg += f"**•** [{(await client.get_users(i))['first_name']}](tg://user?id={i})\n"
-      except:
-                msg += f"**•** [User](tg://user?id={i})\n"
-    await message.reply(f"**List of Sudo Users are:**\n\n{msg}")

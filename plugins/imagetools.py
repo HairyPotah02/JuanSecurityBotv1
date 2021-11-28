@@ -1,6 +1,6 @@
 # Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 #
-# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# This file is part of < https://github.com/DevsExpo/FridayUB > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/DevsExpo/blob/master/LICENSE >
 #
@@ -40,7 +40,7 @@ DURATION = 200
 LOOP = 0
 
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="FridayUserBot")
+r = telegraph.create_account(short_name="FridayUB")
 auth_url = r["auth_url"]
 
 
@@ -859,12 +859,12 @@ async def slogo(client, message):
         await client.send_photo(
             message.chat.id,
             photo=fname2,
-            caption="Made Using FridayUserBot",
+            caption="Made Using FridayUB",
             reply_to_message_id=message.reply_to_message.message_id,
         )
     else:
         await client.send_photo(
-            message.chat.id, photo=fname2, caption="Made Using FridayUserBot"
+            message.chat.id, photo=fname2, caption="Made Using FridayUB"
         )
     await event.delete()
     if os.path.exists(fname2):
@@ -904,12 +904,12 @@ async def adityalogo(client, message):
         await client.send_photo(
             message.chat.id,
             photo=file_name,
-            caption="Made Using FridayUserBot",
+            caption="Made Using FridayUB",
             reply_to_message_id=message.reply_to_message.message_id,
         )
     else:
         await client.send_photo(
-            message.chat.id, photo=file_name, caption="Made Using FridayUserBot"
+            message.chat.id, photo=file_name, caption="Made Using FridayUB"
         )
     await client.send_chat_action(message.chat.id, "cancel")
     await event.delete()

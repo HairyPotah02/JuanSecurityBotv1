@@ -1,3 +1,12 @@
+# Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
+#
+# This file is part of < https://github.com/DevsExpo/FridayUB > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/DevsExpo/blob/master/LICENSE >
+#
+# All rights reserved.
+
+
 import asyncio
 import os
 import time
@@ -105,6 +114,7 @@ async def midhunadmin(client, message):
     holy = ujwal.username or ujwal.id
     messag = f"""
 <b>Admins in {ujwal.title} | {holy}</b>
+
 {mentions}
 """
     await edit_or_send_as_file(
@@ -341,7 +351,7 @@ async def ujwal_mote(client, message):
     except BaseException as e:
         await pablo.edit(engine.get_string("FAILED_ADMIN_ACTION").format("Promote", e))
         return
-    p = f"**#Promote** \n**User :** {user.mention} \n**Chat :** `{message.chat.title}` \n**Title :** `{Res}`"
+    p = f"**#Promote** \n**User :** [{user.first_name}](tg://user?id={user.id}) \n**Chat :** `{message.chat.title}` \n**Title :** `{Res}`"
     await pablo.edit(p)
     log = LogIt(message)
     await log.log_msg(client, p)
@@ -399,7 +409,7 @@ async def ujwal_demote(client, message):
     except BaseException as e:
         await pablo.edit(engine.get_string("FAILED_ADMIN_ACTION").format("Demote", e))
         return
-    d = f"**#Demote** \n**User :** {user.mention}\n**Chat :** `{message.chat.title}`"
+    d = f"**#Demote** \n**User :** [{user.first_name}](tg://user?id={user.id}) \n**Chat :** `{message.chat.title}`"
     await pablo.edit(d)
     log = LogIt(message)
     await log.log_msg(client, d)

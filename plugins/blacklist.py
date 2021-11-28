@@ -1,6 +1,6 @@
 # Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 #
-# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# This file is part of < https://github.com/DevsExpo/FridayUB > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/DevsExpo/blob/master/LICENSE >
 #
@@ -75,7 +75,7 @@ async def listblacklist(client, message):
     ["delblacklist", "rmblacklist", "delblockist", "rmblocklist"],
     cmd_help={
         "help": "Remove Text From Blacklist / Blocklist!",
-        "example": "{ch}delblacklist porn",
+        "example": "{ch}blacklist porn",
     },
 )
 async def delblacklist(client, message):

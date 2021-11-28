@@ -1,6 +1,6 @@
 # Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 #
-# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# This file is part of < https://github.com/DevsExpo/FridayUB > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/DevsExpo/blob/master/LICENSE >
 #
@@ -16,7 +16,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
 from main_startup.helper_func.plugin_helpers import convert_to_image
 
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="FridayUserBot")
+r = telegraph.create_account(short_name="FridayUB")
 auth_url = r["auth_url"]
 
 
